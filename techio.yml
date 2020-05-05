@@ -4,7 +4,8 @@ plan:
   statement: markdowns/welcome.md
 projects:
   python:
+    buildCommand: pip install numpy matplotlib Pillow; pip install scipy numba
     root: /python-project
     runner:
       name: python
-      version: '3'
+      version: '3.6'
